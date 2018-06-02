@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;        
+    background-color: lightgray;
+}
+
+/* HEADER begin */
+
+header {
+    color: #ffffff;
+    background-color: #35424a;    
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #9cbf26 2px solid;    
+    width: 100%;
+    /*position: fixed;*/
+}
+
+/* Внутренности header'а */
+header .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Лого */
+header .branding {
+    float: left;
+}
+
+header nav {
+    float: right;
+    margin: 10px;
+}
+
+header .branding h1 {
+    margin: 0;
+    color: #9cbf26;
+}
+
+header nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+header nav li {
+    float: left;
+    display: inline;
+    padding: 2px 20px 2px 20px;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header .current a {
+    color: #9cbf26;
+    font-weight: bold;
+}
+
+header a:hover {
+    color:#cccccc;
+    font-weight:bold;
+}
+
+/* HEADER end */
+
+/* SEARCH BAR begin */
+
+.search-bar {
+    padding: 15px;
+    color: #ffffff;
+    background: #35424a;   
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.search-bar form {
+    width: auto;
+    float: right;
+}
+
+.search-bar form .input-find {
+    height: 32px;
+    width: 250px;    
+}
+
+.search-bar form .button-find{
+    height: 38px;
+    background: #9cbf26;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;    
+}
+
+.search-bar form .button-find:hover{
+    cursor: pointer;
+    border: green 2px solid;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+/* SEARCH BAR end */
+
+/* ARTICLE begin */
+
+article {
+    padding: 10px;
+    background-color: #F7F9F4;
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+article, article .article-head, article .article-body {
+    max-width: 900px;
+    width: 100%;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;  
+}
+
+.article-head h2 {
+    margin: 0;
+    padding: 0 0 0 0;
+}
+
+.article-head h2{
+    text-decoration: none;
+    color: #9cbf26;
+}
+
+.article-head h2 a{
+    text-decoration: none;
+    color: #9cbf26;
+}
+
+.article-head h2 a:hover {
+    text-decoration: none;
+    color: #004d00;
+}
+
+/* properties - дата публкации и т.п. */
+.article-head .article-properties {
+    color: lightslategray;
+}
+
+/* Изображение на превью, а также самое первое в полной новости */
+article .article-body .img-preview {
+    width: inherit;
+    max-width: inherit;
+}
+
+/* Контейнер для всех изображений в полной, кроме первого */
+article .article-body .image-container {
+    text-align: center;
+}
+
+/* Любое изображение в полной, кроме первого */
+article .article-body .img-full {
+    width: inherit;
+    max-width: inherit;
+    margin: 5px;
+}
+
+article .article-body .img-wallp {
+    width: 23%;
+    margin: 7px;
+}
+
+.article-body p {
+    font-family: serif;
+}
+
+.article-body .a-button {
+    text-decoration: none;
+    color: #9cbf26;
+    margin: auto;    
+    background-color: white;
+    box-shadow: 0 0 5px #cccccc;
+    max-width: inherit;
+    width: 100%;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 0 10px 0;
+    display: block;
+}
+
+.article-body .a-button:hover {
+    color: #004d00;
+}
+
+.article-body .a-email {
+    font-family: monospace;    
+    font-size: 1.2em;
+}
+
+.article-body .important-bold {
+    font-weight: 700;
+}
+
+.article-body ul {
+    font-family: serif;
+}
+
+/* TABLE information begin */
+.information {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.information td, .information th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.information tr:nth-child(even) {
+    background-color: #dddddd;
+}
+/* TABLE information end */
+
+/* TABLE registration begin */
+.registration {
+    font-family: sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.registration td {
+    border: 1px solid #dddddd;
+    padding: 4px;
+}
+
+.registration td:nth-child(1) {
+    text-align: right;    
+}
+
+.registration td:nth-child(2) {
+    text-align: left;
+    background-color: #d0ddd0;
+}
+
+/* TABLE registration end */
+
+/*
+.text-box {
+    height: 200px;
+    max-width: inherit;
+    width: inherit;
+    font-size: 0.7em;    
+} */
+
+/* ARTICLE end */
+
+/* FOOTER begin */
+
+footer {
+    padding:30px;  
+    background-color: #9cbf26;
+    text-align: center;
+    margin-top: 30px;    
+}
+
+footer a {
+    text-decoration: none;
+    color:#ffffff;
+}
+
+/* FOOTER end */
